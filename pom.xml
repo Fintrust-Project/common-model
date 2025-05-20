@@ -42,6 +42,14 @@
 		</dependency>
 	</dependencies>
 
+	<!-- Distribution Management to deploy to GitHub Packages -->
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub Packages</name>
+			<url>https://maven.pkg.github.com/Fintrust-Project/common-model</url>
+		</repository>
+	</distributionManagement>
 	<build>
 		<plugins>
 			<!-- ✅ This must stay: needed for compilation and Lombok -->
