@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.fintrust</groupId>
 	<artifactId>common-model</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<name>common-model</name>
 	<description>This model contains request and response for common api models</description>
 	<url/>
